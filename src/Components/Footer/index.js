@@ -9,7 +9,7 @@ const Footer = props => {
         <div className='footer-container'>
             <div className='donation-container'>
                 <h2>Make a Donation!</h2>
-                <Button><h1 className='donate-text'>DONATE</h1></Button>
+                <a href='https://secure.actblue.com/donate/ferguson-for-senate'><Button><h1 className='donate-text'>DONATE</h1></Button></a>
             </div>
             <div className='links'>
                 <Link to='/privacy'><h3>Privacy Policy</h3></Link>
