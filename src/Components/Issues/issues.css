@@ -1,0 +1,121 @@
+@media screen and (max-width: 600px) {
+    .issue-container {
+        background-color: #CCCCCC;
+        width: 90%;
+        margin: 17% 5% 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .issue-container-odd {
+        background-color: #CCCCCC;
+        width: 90%;
+        margin: 15% 5% 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle-img {
+        width: 75%;
+        margin: 5% 12.5%;
+        object-fit: contain;
+    }
+
+    .issue-text {
+        text-align: center;
+        margin: 0 5% 5%;
+    }
+
+    .issue-text-odd {
+        text-align: center;
+        margin: 0 5% 5%;
+    }
+
+    .issue-text-title {
+        font-size: 1.7rem;
+    }
+
+    .issue-text-paragraph {
+        color: #1E2D40;
+        
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .issue-container {
+        background-color: #CCCCCC;
+        width: 90%;
+        margin: 15% 5% 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .issue-container-odd {
+        background-color: #CCCCCC;
+        width: 90%;
+        margin: 15% 5% 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle-img {
+        width: 50%;
+        margin: 5% 25%;
+        object-fit: contain;
+    }
+
+    .issue-text {
+        text-align: center;
+        margin: 0 5% 5%;
+    }
+
+    .issue-text-odd {
+        text-align: center;
+        margin: 0 5% 5%;
+    }
+
+    .issue-text-paragraph {
+        color: #1E2D40;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 925px) {
+    .issue-container {
+        background-color: #CCCCCC;
+        width: 90%;
+        margin: 10% 5% 2.5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .issue-container-odd {
+        background-color: #CCCCCC;
+        width: 90%;
+        margin: 10% 5% 2.5%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .circle-img {
+        width: 30%;
+        margin: 3%;
+        object-fit: contain;
+    }
+
+    .issue-text {
+        text-align: center;
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+
+    .issue-text-odd {
+        text-align: center;
+        margin-left: 3%;
+        margin-bottom: 3%;
+    }
+
+    .issue-text-paragraph {
+        color: #1E2D40;
+    }
+}

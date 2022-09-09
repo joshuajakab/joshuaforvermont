@@ -1,0 +1,56 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E2D40;
+    
+}
+
+
+
+html,
+body, 
+#root,
+.App,
+.fullHeight {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+    
+}
+
+p {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+h3 {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #CCCCCC;
+  margin: 1% 0;
+}
+
+h2 {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #CCCCCC;
+  margin: 1% 0;
+}
+
+h1 {
+  font-family: garamond-premier-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1E2D40;
+  margin: 3% 0;
+}
+
+a {
+  text-decoration: none;
+}

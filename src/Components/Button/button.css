@@ -1,0 +1,30 @@
+.btn-container {
+    margin-top: 1%;
+    
+}
+
+.btn {
+    background-color: #CCCCCC;
+    width: 20%;
+    height: 15%;
+    margin: 0 40%;
+    border: 2px solid #1E2D40;
+    border-radius: 5%/20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 925px) {
+    .btn {
+        width: 50%;
+        height: 10%;
+        margin: 2% 25%;
+        border: 2px solid #1E2D40;
+        border-radius: 9%/30%;
+    }
+
+
+}
