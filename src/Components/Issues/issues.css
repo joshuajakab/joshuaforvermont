@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     .issue-container {
-        background-color: #CCCCCC;
+        background-color: white;
         width: 90%;
         margin: 17% 5% 0;
         display: flex;
@@ -8,7 +8,7 @@
     }
 
     .issue-container-odd {
-        background-color: #CCCCCC;
+        background-color: white;
         width: 90%;
         margin: 15% 5% 0;
         display: flex;
@@ -16,8 +16,8 @@
     }
 
     .circle-img {
-        width: 75%;
-        margin: 5% 12.5%;
+        width: 50%;
+        margin: 5% 25%;
         object-fit: contain;
     }
 
@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 601px) {
     .issue-container {
-        background-color: #CCCCCC;
+        background-color: white;
         width: 90%;
         margin: 15% 5% 0;
         display: flex;
@@ -51,7 +51,7 @@
     }
 
     .issue-container-odd {
-        background-color: #CCCCCC;
+        background-color: white;
         width: 90%;
         margin: 15% 5% 0;
         display: flex;
@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 925px) {
     .issue-container {
-        background-color: #CCCCCC;
+        background-color: white;
         width: 90%;
         margin: 10% 5% 2.5%;
         display: flex;
@@ -90,7 +90,7 @@
     }
 
     .issue-container-odd {
-        background-color: #CCCCCC;
+        background-color: white;
         width: 90%;
         margin: 10% 5% 2.5%;
         display: flex;

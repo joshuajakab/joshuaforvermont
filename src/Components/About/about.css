@@ -36,7 +36,14 @@
 }
 
 .about-bottom-img {
+    width: 40%;
+    margin: 0 30%;
+
+}
+
+.about-bottom-img-container {
     width: 100%;
+    background-color: white;
 
 }
 

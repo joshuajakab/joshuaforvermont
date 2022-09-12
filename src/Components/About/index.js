@@ -39,7 +39,9 @@ const About = props => {
 
                     On the water he is a sailor, and on the ground he is a young citizen committed to working toward a brighter future for Vermont.</h3>
             </div>
-            <img src='https://drive.google.com/uc?id=1Qybg-V32fqRyzLmbVKU5fKn7f1jlioz3' className='about-bottom-img' alt='about-bottom-img' />
+            <div className='about-bottom-img-container'>
+                <img src='https://drive.google.com/uc?id=1_cl_YSlagQX3K9XpHVIktUcto-ngUG27' className='about-bottom-img' alt='about-bottom-img' />
+            </div>
         </div>
     )
 };

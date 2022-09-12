@@ -7,21 +7,22 @@ import Home from './Components/Home';
 import About from './Components/About';
 import './default.css';
 import Issues from './Components/Issues';
+import Contact from './Components/Conatct';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  
 
-    const menuToggle = () => {
-        setMenuOpen(menuOpen => !menuOpen)
-    }
+
+  const menuToggle = () => {
+    setMenuOpen(menuOpen => !menuOpen)
+  }
   return (
     <div className="App">
 
       <Header click={menuToggle} />
 
       {menuOpen && [
-      <Menu click={menuToggle}/>
+        <Menu click={menuToggle} />
       ]}
 
       <Switch>
@@ -34,10 +35,13 @@ function App() {
         <Route path='/issues' render={() => (
           <Issues />
         )} />
+        <Route path='/contact' render={() => (
+          <Contact />
+        )} />
       </Switch>
 
       <Footer />
-      
+
     </div>
   );
 }
