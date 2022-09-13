@@ -10,7 +10,7 @@ const Home = props => {
         <div className='home-container'>
             <img className='home-img' src='https://drive.google.com/uc?id=1PbU4z9_AD5AmfnFQ9AiXgInhf38gSFkV' alt='football-pic' />
             <div className='divider' />
-            <h1 className='quote-text'>"Some real inspirational shit about some real salt of the earth inspirational people that will for sure touch your hearts."</h1>
+            <h1 className='quote-text'>"At every turn, let's ask: What can we do — what can I do — going forward?"</h1>
             <h1 className='quote-signature'>-Joshua Ferguson</h1>
             {width < 925 ?
             <div className='quote-img-container'>
