@@ -12,15 +12,11 @@ const Home = props => {
             <div className='divider' />
             <h1 className='quote-text'>"At every turn, let's ask: What can we do — what can I do — going forward?"</h1>
             <h1 className='quote-signature'>-Joshua Ferguson</h1>
-            {width < 925 ?
+            
             <div className='quote-img-container'>
                 <img className='quote-img' src='https://drive.google.com/uc?id=1EWUPPPvC5tftXcDswtFt2OIppwQjPKT0' alt='quote-img' />
             </div>
-            :
-            <div className='quote-img-container'>
-                <img className='quote-img' src='https://drive.google.com/uc?id=17IQCIWFRW-GL8LDRhjnuWwgV63YhSxYX' alt='quote-img' />
-            </div>
-            }
+            
             <div className='endorsement-container'>
                 <h1 className='endorsement-title'>Endorsements</h1>
                 <h3 className='endorsement-text'>Endorsed by Democrat, Republican, Progressive, and Independent voters.</h3>

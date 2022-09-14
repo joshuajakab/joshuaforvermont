@@ -4,9 +4,11 @@ import './contact.css';
 
 const Contact = props => {
 
-    return(
+    return (
         <div className='contact-container'>
-            <img src={Circle} className='contact-img' alt='contact-img' />
+            <div className='contact-img-container'>
+                <img src={Circle} className='contact-img' alt='contact-img' />
+            </div>
             <h2>Contact:</h2>
             <h3>Mail: Joshua Ferguson for Vermont<br />P.O. Box 14<br />Castleton, VT 05735</h3>
             <h3>Email: <a className='email-link' href='mailto: joshuaforvermont@gmail.com'>joshuaforvermont@gmail</a></h3>
