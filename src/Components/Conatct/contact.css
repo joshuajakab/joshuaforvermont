@@ -4,6 +4,11 @@
     text-align: center;
 }
 
+.contact-img {
+    width: 30%;
+    margin: 0 35%;
+}
+
 .email-link {
     color: rgb(92, 172, 218);
 }

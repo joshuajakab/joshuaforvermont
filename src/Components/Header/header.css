@@ -6,9 +6,9 @@
         width: 100%;
         height: 8%;
         display: flex;
-        align-items: center;
         box-shadow: 0 0px 15px black;
         flex-direction: row;
+        align-items: center;
         justify-content: space-between;
         background-color: #1E2D40;
         position: fixed;
@@ -35,16 +35,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        
     }
 
     .logo {
-        font-size: 1.3rem;
-        width: 100%;
-    
-        color: #CCCCCC;
-    
-        margin: 0 0 0 8%;
+        width: 40%;
+        margin-left: 3%;
     }
 
     .menu {
@@ -108,10 +103,8 @@
     }
 
     .logo {
-        font-size: 2.5rem;
-        width: 100%;
-        color: #CCCCCC;
-        margin: 0 0 0 8%;
+        width: 35%;
+        margin-left: 2%;
     }
 
     .menu {
@@ -179,12 +172,9 @@
     
     
     .logo {
-        font-size: 2rem;
-        width: 100%;
-    
-        color: #CCCCCC;
-    
-        margin: 0 0 0 8%;
+        width: 20%;
+        margin-left: 3%;
+
     }
     
     .menu {

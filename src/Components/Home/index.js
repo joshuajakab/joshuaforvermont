@@ -8,7 +8,7 @@ const Home = props => {
 
     return(
         <div className='home-container'>
-            <img className='home-img' src='https://drive.google.com/uc?id=1PbU4z9_AD5AmfnFQ9AiXgInhf38gSFkV' alt='football-pic' />
+            <img className='home-img' src='https://drive.google.com/uc?id=1IjgxIitMSaRD3xJ2D0eKqJ_rWdw7DAyr' alt='football-pic' />
             <div className='divider' />
             <h1 className='quote-text'>"At every turn, let's ask: What can we do — what can I do — going forward?"</h1>
             <h1 className='quote-signature'>-Joshua Ferguson</h1>
@@ -21,6 +21,15 @@ const Home = props => {
                 <img className='quote-img' src='https://drive.google.com/uc?id=17IQCIWFRW-GL8LDRhjnuWwgV63YhSxYX' alt='quote-img' />
             </div>
             }
+            <div className='endorsement-container'>
+                <h1 className='endorsement-title'>Endorsements</h1>
+                <h3 className='endorsement-text'>Endorsed by Democrat, Republican, Progressive, and Independent voters.</h3>
+                <div className='endorsement-img-container'>
+                    <img src='https://drive.google.com/uc?id=129hM9R8PBY_facWfUzD4QqzY4NiW2IER' className='endorsement-img' alt='endorsement-img' />
+                    <img src='https://drive.google.com/uc?id=1e-kPOQJ_NXU2hweGEsorEFTSthEwWXQB' className='endorsement-img' alt='endorsement-img' />
+                </div>
+            </div>
+
            
         </div>
     )

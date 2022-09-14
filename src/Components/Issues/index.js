@@ -11,9 +11,9 @@ const Issues = props => {
     return (
         <div className='issues-container'>
             <div className='issue-container'>
-                <img src={Circle} className='circle-img' alt='circle-img' />
+                <img src={Microphone} className='circle-img' alt='circle-img' />
                 <div className='issue-text'>
-                    <h1 className='issue-text-title'>A relentless civic innovator, Joshua Ferguson delivers for Vermont.</h1>
+                    <h1 className='issue-text-title'>A relentless civic innovator,<br /> Joshua Ferguson delivers for Vermont.</h1>
                     <h3 className='issue-text-paragraph'>As a Senator Joshua Ferguson will ensure that Rutland County has a clear, principled voice in Montpelier and concerns of communities are heard and articulated with civility. As a citizen, Ferguson has worked to empower youth and communities, expand opportunity, improve public health, promote a culture of innovation, and advance equity and dignity for all. Working people and youth often bear the greatest burden of the challenges facing their communities, while disparities persist along lines of class, geography, status, race, and lack of meaningful participation in the democratic process. <br /><br />Joshua is ready to work for Rutland County.</h3>
                 </div>
             </div>
@@ -25,7 +25,7 @@ const Issues = props => {
                 </div>
             </div>
             <div className='issue-container'>
-                <img src={Microphone} className='circle-img' alt='microphone' />
+                <img src='https://drive.google.com/uc?id=1XiWv0xt8nIV4VTiNb0E94Vqy-sHeMIYt' className='circle-img' alt='microphone' />
                 <div className='issue-text'>
                     <h1 className='issue-text-title'>ECONOMIC GROWTH & ECONOMIC SECURITY</h1>
                     <h3 className='issue-text-paragraph'>“When people come, they should know that our county says yes to business, yes to innovation, and yes to growing opportunities for everyone.” <br /><br />Downtown revitalization and rural economic development go hand-in-hand. Both require the energy, vision and vitality of the citizen sector, where profit and nonprofit enterprise thrives, where businesses and organizations work to create local economies. Policy frameworks should enable communities and developers to build incubators and hubs of business growth; promote technical training and skills programs and opportunities; enhance public private partnerships, and find ways to retain emerging Vermont talent across sectors. <br /><br />Key sectors to watch in Vermont: aviation, ecotourism, food and beverage, technology, organic agriculture, manufacturing, cannabis, recreation, history tourism, real estate.</h3>

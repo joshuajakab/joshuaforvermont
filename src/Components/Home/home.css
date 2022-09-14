@@ -66,6 +66,37 @@
         margin: 0 25%;
     }
 
+    .endorsement-container {
+        width: 75%;
+        margin: 3% 12.5%;
+        background-color: white;
+        text-align: center;
+        padding: 1%
+    }
+
+    .endorsement-title {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .endorsement-text {
+        color: #1E2D40;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+    }
+
+    .endorsement-img-container {
+        width: 75%;
+        margin: 0 12.5% 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .endorsement-img {
+        width: 20%;
+    }
+
 }
 
 @media screen and (min-width: 601px) {
@@ -117,6 +148,37 @@
         z-index: 5;
         opacity: 0.9;
         filter:brightness(1.4)
+    }
+
+    .endorsement-container {
+        width: 75%;
+        margin: 3% 12.5%;
+        background-color: white;
+        text-align: center;
+        padding: 1%
+    }
+
+    .endorsement-title {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .endorsement-text {
+        color: #1E2D40;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+    }
+
+    .endorsement-img-container {
+        width: 75%;
+        margin: 0 12.5% 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .endorsement-img {
+        width: 20%;
     }
 }
 
@@ -171,5 +233,36 @@
         z-index: 5;
         opacity: 0.9;
         filter:brightness(1.4)
+    }
+
+    .endorsement-container {
+        width: 75%;
+        margin: 3% 12.5%;
+        background-color: white;
+        text-align: center;
+        padding: 1%
+    }
+
+    .endorsement-title {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .endorsement-text {
+        color: #1E2D40;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
+    }
+
+    .endorsement-img-container {
+        width: 75%;
+        margin: 0 12.5% 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .endorsement-img {
+        width: 20%;
     }
     }
