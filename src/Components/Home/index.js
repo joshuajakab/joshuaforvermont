@@ -8,7 +8,7 @@ const Home = props => {
 
     return(
         <div className='home-container'>
-            <img className='home-img' src='https://drive.google.com/uc?id=1IjgxIitMSaRD3xJ2D0eKqJ_rWdw7DAyr' alt='football-pic' />
+            <img className='home-img' src='https://drive.google.com/uc?id=1T2NrN-jE-JB5nmI-o2SlOBH2S1LXNpCG' alt='football-pic' />
             <div className='divider' />
             <h1 className='quote-text'>"At every turn, let's ask: What can we do — what can I do — going forward?"</h1>
             <h1 className='quote-signature'>-Joshua Ferguson</h1>
