@@ -13,7 +13,7 @@ const About = props => {
 
 
 
-                    Joshua Ferguson was born in Rutland City, Vermont, a lifelong and many-generation Vermonter. Raised in Castleton and Fair Haven, Ferguson has deep roots in Rutland County and Vermont. He comes from a family with a rich history of service to the nation, tracing to the Green Mountain Boys and patriots in every subsequent generation.<br /><br />
+                    Joshua Ferguson was born in Rutland City, Vermont, a lifelong and many-generation Vermonter. Raised in Castleton and Fair Haven, Ferguson has deep roots in Rutland County and Vermont. He comes from a working, blue-collar family with a rich history of service to the nation, tracing to the Green Mountain Boys and patriots in every subsequent generation.<br /><br />
 
 
 
