@@ -12,16 +12,14 @@ const Home = props => {
         <div className='home-container'>
 
             <Carousel dynamicHeight={true} autoPlay={true} infiniteLoop={true} interval='8000' showArrows={false} showStatus={false} showIndicators={false} showThumbs={false}> 
-                <div className='gig-img-container'>
+                <div className='home-img-container'>
                     <img src='https://drive.google.com/uc?id=1VhJM3zL5mzz7_cZz6k9pdh44yv-lyoy_' alt='home-1' />
                 </div>
-                <div className='gig-img-container'>
-                    <img src='https://drive.google.com/uc?id=1k2AyCM4K-uhckgC6riOKX5z9Cnt6GAoY' alt='home-2' />
-                </div>
-                <div className='gig-img-container'>
+                
+                <div className='home-img-container'>
                     <img src='https://drive.google.com/uc?id=1CdvqIStciARpUM5i7rH1JfFcKZEIPZni' alt='home-3' />
                 </div>
-                <div className='gig-img-container'>
+                <div className='home-img-container'>
                     <img src='https://drive.google.com/uc?id=1jHQR61zqr6yyQtrHMBfj7KCZpnxORb69' alt='home-4' />
                 </div>
             </Carousel>
