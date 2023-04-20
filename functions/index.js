@@ -71,7 +71,7 @@ app.post("/schedule", (req, res, next) => {
         Date: ${request_params.date}
         Time: ${request_params.time}
         Address: ${request_params.address}
-        Special Notes: $notes
+        Special Notes: ${request_params.notes}
         
         Sent from website by
         ${request_params.contactName} ${request_params.contactEmail}`
@@ -80,7 +80,7 @@ app.post("/schedule", (req, res, next) => {
     transporter.sendMail(mail, (err, data) => {
 
         if (err) {
-            console.log(`${err}`)
+            alert('This function is currently under construction');
             res.json({
                 status: "fail"
             })
