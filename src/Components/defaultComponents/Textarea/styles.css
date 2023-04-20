@@ -1,0 +1,17 @@
+.formRow {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+
+
+
+.textArea {
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+    
+}

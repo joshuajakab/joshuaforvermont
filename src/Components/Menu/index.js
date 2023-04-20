@@ -6,7 +6,7 @@ const Menu = props => {
 
     return(
         <div className='menu-container'>
-            <Link className='menu-links' to='/about'><h2 className='menu-links-text' onClick={props.click}>About Joshua Ferguson</h2></Link>
+            <Link className='menu-links' to='/about'><h2 className='menu-links-text' onClick={props.click}>Meet Joshua Ferguson</h2></Link>
             <Link className='menu-links' to='/Issues'><h2 onClick={props.click}>Issues</h2></Link>
             
             

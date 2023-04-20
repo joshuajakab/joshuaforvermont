@@ -6,7 +6,7 @@ const About = props => {
     return (
         <div className='about-container'>
 
-            <h1 className='about-title'>About Joshua Ferguson</h1>
+            <h1 className='about-title'>Meet Joshua Ferguson</h1>
             <div className='about-text-container'>
                 <img src='https://drive.google.com/uc?id=1PPmwAZPikxdGz5TKVYJdnIOMkjE6C41O' className='about-top-img' alt='about-img' />
                 <h3 className='about-text'>Joshua Ferguson has been called a "citizen senator" long before winning the 2022 Vermont Primary state senate nomination by write-in vote. He is a civic innovator who embodies what he calls "the civic spirit of Vermont." His body of work, like his civic engagement, is diverse and has brought people together across cultures, disciplines and sectors to solve real-world issues facing communities.<br /><br />
@@ -37,7 +37,7 @@ const About = props => {
 
 
 
-                    On the water he is a sailor, and on the ground he is a young citizen committed to working toward a brighter future for Vermont.</h3>
+                    On the water he is a sailor, and on the ground he is a civic innovator committed to working toward a brighter future for Vermont.</h3>
             </div>
             <div className='about-bottom-img-container'>
                 

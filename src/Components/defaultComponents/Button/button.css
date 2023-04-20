@@ -4,16 +4,17 @@
 }
 
 .btn {
-    background-color: #CCCCCC;
+    background-color: white;
     width: 20%;
     height: 15%;
     margin: 0 40%;
     border: 2px solid rgb(0, 42, 96);
-    border-radius: 5%/20%;
+    border-radius: 2.5%/10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
+    
 }
 
 

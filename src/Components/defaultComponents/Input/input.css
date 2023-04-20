@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+    
+
+    .label {
+        font-size: 1rem;
+    }
+
+    .formInput {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+.formRow-input {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+    
+}
+
+.formInput {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.label {
+   font-weight: 700; 
+}
