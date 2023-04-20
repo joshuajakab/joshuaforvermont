@@ -32,7 +32,7 @@ app.post("/access", (req, res, next) => {
         from: `${request_params.contactEmail}`,
         to: `joshuaforvermont@gmail.com`,
         subject:
-        `Message from ${request_params.contactName}`,
+        `Constituent Message from ${request_params.contactName}`,
         html:
         `${request_params.contactMessage} Sent from website by
         ${request_params.contactName} ${request_params.contactEmail}`
