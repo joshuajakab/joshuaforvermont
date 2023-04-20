@@ -63,14 +63,14 @@ app.post("/schedule", (req, res, next) => {
         from: `${request_params.contactEmail}`,
         to: `joshuaforvermont@gmail.com`,
         subject:
-        `Schedule Request from ${request_params.contactName}`,
+        `Speaking Request from ${request_params.contactName}`,
         html:
-        `Name: ${contactName}
-        Orginization: ${orginization}
-        Phone Number: ${contactPhone}
-        Date: ${date}
-        Time: ${time}
-        Address: ${address}
+        `Name: ${request_params.contactName}
+        Orginization: ${request_params.orginization}
+        Phone Number: ${request_params.contactPhone}
+        Date: ${request_params.date}
+        Time: ${request_params.time}
+        Address: ${request_params.address}
         Special Notes: $notes
         
         Sent from website by
