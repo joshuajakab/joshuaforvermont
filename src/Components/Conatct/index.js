@@ -53,7 +53,7 @@ const Contact = props => {
                 </div>
                 <div className='contact-form'>
                     <h1 id='contact-form-title'>Schedule a Speaking Event</h1>
-                    <h3 id='contact-form-subtitle'>(Request a visit to your orginization, home or commuity. Host a coffee hour, town hall or special event.)</h3>
+                    <h3 id='contact-form-subtitle'>(Request a visit to your organization, home or community. Host a coffee hour, town hall or special event.)</h3>
                     <FormInput
                         className='contact-form-input'
                         label='Full Name'
@@ -64,7 +64,7 @@ const Contact = props => {
 
                     <FormInput
                         className='contact-form-input'
-                        label='Orginization (if applicable)'
+                        label='Organization (if applicable)'
                         type='text'
                         value={orginization}
                         handleChange={e => setOrginization(e.target.value)}
