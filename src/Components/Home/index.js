@@ -7,6 +7,8 @@ import FormInput from '../defaultComponents/Input';
 import TextArea from '../defaultComponents/Textarea';
 import Button from '../defaultComponents/Button';
 import { apiInstance } from '../../Utils';
+import StandTall from '../../media/stand-tall.png';
+import Walking from '../../media/walking.png';
 
 
 
@@ -19,10 +21,15 @@ const Home = props => {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
     const [zipCode, setZipCode] = useState('');
+    const [source, setSource] = useState(StandTall)
 
     //'https://drive.google.com/uc?id=1ypV8kOFUQZYtFjaFVewIgaI67BpRkQ9M'
     const changeHomeImage = () => {
-        setMouseOver(mouseOver => !mouseOver)
+        setSource(Walking)
+    }
+
+    const changeBack = () => {
+        setSource(StandTall)
     }
 
     const resetContactForm = () => {
@@ -51,7 +58,16 @@ const Home = props => {
 
             {width < 925 ?
                 <div className='home-img-container'>
-                    <img className='home-img-phone' src='https://drive.google.com/uc?id=1Qxpys5yR0u_3GcaHjLETgpc6WpiUrugw' alt='home-img' />
+                    
+                    <Carousel  autoPlay={true} infiniteLoop={true} interval='8000' showArrows={false} showStatus={false} showIndicators={false} showThumbs={false}>
+                        <div className='home-img-phone'>
+                            <img  src='https://drive.google.com/uc?id=1Qxpys5yR0u_3GcaHjLETgpc6WpiUrugw' alt='home-1' />
+                        </div>
+
+                        <div className='home-img-phone'>
+                            <img  src='https://drive.google.com/uc?id=1APDB5tv49Caf2EtUotVoZ4gZme0jnNkD' alt='home-3' />
+                        </div>
+                    </Carousel>
                     <div className='home-form'>
                         <div className='home-form-container'>
                             <div id='quote-text-container'>
@@ -146,7 +162,7 @@ const Home = props => {
                     </div>
 
 
-                    <img className='home-img' src='https://drive.google.com/uc?id=1Qxpys5yR0u_3GcaHjLETgpc6WpiUrugw' alt='home-img' />
+                    <img className='home-img' src={source} alt='home-img' onMouseEnter={changeHomeImage} onMouseLeave={changeBack} />
 
                     {/*mouseOver &&
                         <div className='home-img-container'>

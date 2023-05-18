@@ -172,7 +172,8 @@
     }
 
     .footer-donate-button {
-        width: 30%;
+        width: 100px;
+        height: 50px;
         border: none;
         border-radius: 5%/10%;
         font-family: garamond-premier-pro, serif;
@@ -181,7 +182,7 @@
         font-size: 1.4rem;
         background-color: white;
         color: rgb(0, 42, 96);
-        padding: 2.5%;
+        
         cursor: pointer;
     }
 

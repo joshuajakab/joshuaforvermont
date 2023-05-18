@@ -53,7 +53,7 @@ const Contact = props => {
                 </div>
                 <div className='contact-form'>
                     <h1 id='contact-form-title'>Schedule a Speaking Event</h1>
-                    <h3 id='contact-form-subtitle'>(Request a visit to your organization, home or community. Host a coffee hour, town hall or special event.)</h3>
+                    <h3 id='contact-form-subtitle'>Request an event, keynote, meeting, speaking engagement (ie. coffee hour, seminar, panel discussion, roundtable, etc), town hall or site visit with Joshua Ferguson. Schedule a visit to your business, community, organization or home.</h3>
                     <FormInput
                         className='contact-form-input'
                         label='Full Name'

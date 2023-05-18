@@ -450,7 +450,7 @@
     }
 
     #home-form-submit {
-        width: 25%;
+        width: 100px;
         height: 50px;
         margin: 0;
         background-color: white;
@@ -480,12 +480,14 @@
         width: 100%;
         position: relative;
         z-index: 10;
-        padding: .5% 0;
-        background: white;
+
     }
 
     .divider-img {
         width: 100%;
+        
+        background-color: white;
+        padding: 5px 0;
     }
     
     .quote-text {
@@ -530,7 +532,7 @@
 
     .endorsement-title {
         margin: 0;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .endorsement-text {
@@ -548,7 +550,7 @@
     }
 
     .endorsement-img {
-        width: 30%;
+        width: 20%;
         object-fit: contain;
     }
     }
