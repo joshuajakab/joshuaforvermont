@@ -1,6 +1,8 @@
 import React from 'react';
 import Circle from '../../media/circle.JPG';
 import Circle2 from '../../media/circle2.JPG';
+import Group from '../../media/group.jpg';
+import Pointing from '../../media/pointing.jpg';
 import Microphone from '../../media/microphone.jpg';
 import Car from '../../media/Classic-car.jpg';
 import RWB from '../../media/IMG_9434.jpg';
@@ -18,7 +20,7 @@ const Issues = props => {
                 </div>
             </div>
             <div className='issue-container-football'>
-                <img src='https://drive.google.com/uc?id=10jwUYj3fw4aeO-R2ULRD87QNTRhrG3lm' className='football-circle-img' alt='circle-img' />
+                <img src={Group} className='football-circle-img' alt='circle-img' />
                 <div className='issue-text-odd'>
                     <h1 className='issue-text-title'>HEALTHY FAMILIES & HEALTHY COMMUNITIES</h1>
                     <h3 className='issue-text-quote'>“The health and safety of our communities is a direct reflection of the health and safety of individuals and families – the lifeblood of community.” <br /><br /></h3>
@@ -26,7 +28,7 @@ const Issues = props => {
                 </div>
             </div>
             <div className='issue-container'>
-                <img src='https://drive.google.com/uc?id=1XiWv0xt8nIV4VTiNb0E94Vqy-sHeMIYt' className='circle-img' alt='microphone' />
+                <img src={Pointing} className='circle-img' alt='microphone' />
                 <div className='issue-text'>
                     <h1 className='issue-text-title'>ECONOMIC GROWTH & ECONOMIC SECURITY</h1>
                     <h3 className='issue-text-quote'>“When people come, they should know that our state says yes to business, yes to innovation, and yes to growing opportunities for everyone.” <br /><br /></h3>
